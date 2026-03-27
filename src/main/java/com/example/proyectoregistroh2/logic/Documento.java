@@ -38,3 +38,23 @@ public class Documento {
     private Set<Linea> lineas = new LinkedHashSet<>();
 
 }
+
+//Como si la hubiese escrito a mano:
+
+//@Getter
+//@Setter
+//@Entity
+//@Table(name = "documento")
+
+//public class Documento {
+//    @Id
+//    private String id;
+//    private String descripcion;
+//    private Float monto;
+//    private Float timbres;
+//
+//    @ManyToOne
+//    @JoinColumn(name = "tipoId")
+//    private Tipo tipo;
+//
+//}

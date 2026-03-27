@@ -27,5 +27,19 @@ public class Tipo {
     @OneToMany(mappedBy = "tipo")
     private Set<Documento> documentos = new LinkedHashSet<>();
 
-
 }
+
+
+//Como si la hubiese escrito a mano:
+//
+//@Getter
+//@Setter
+//@Entity
+//@Table(name = "tipo")
+//public class Tipo {
+//
+//    @Id
+//    private String id;
+//    private String nombre;
+//
+//}
