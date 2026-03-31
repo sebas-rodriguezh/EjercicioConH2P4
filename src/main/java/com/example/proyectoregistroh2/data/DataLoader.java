@@ -16,10 +16,8 @@ public class DataLoader implements CommandLineRunner
     private final DocumentoRepository documentoRepository;
     private final PasswordEncoder passwordEncoder;
 
-    public DataLoader(UsuarioRepository usuarioRepository,
-                      TipoRepository tipoRepository,
-                      DocumentoRepository documentoRepository,
-                      PasswordEncoder passwordEncoder) {
+    public DataLoader(UsuarioRepository usuarioRepository, TipoRepository tipoRepository, DocumentoRepository documentoRepository, PasswordEncoder passwordEncoder)
+    {
         this.usuarioRepository = usuarioRepository;
         this.tipoRepository = tipoRepository;
         this.documentoRepository = documentoRepository;
